@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.main-container{
+    margin-top: -90px;
+    width: 80%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    align-items: center;
+    padding: 0 10rem;
+}
+.main-container .box{
+    background-color: white;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.main-container .box:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: scale(1.1);
+}
+
+.main-container .card{
+    padding: 15px 15px 0;
+}
+
+.card .card-image{
+    width: 80%;
+    background:white;
+    margin: 10px auto 25px;
+    position: relative;
+}
+
+.card .card-image::before{
+    content:"";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 8px;
+    left: 10px;
+    border-radius: 50%;
+    
+}
+
+.card .card-image img{
+    width: 180px;
+    transition: 0.9s ease-in-out;
+}
+.card .card-image :hover{
+    transition: scale(1.1);
+}
+
+.card .desc{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.card .desc{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card .desc h4{
+    font-size: 20px;
+}
+
+.card .star .star-icon{
+    font-size: 18px;
+    color: rgb(196, 190, 190);
+}
+
+.card-btn{
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    color:white;
+    background-color: rgb(248, 41, 93) ;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card-btn:hover{
+    color:black;
+    background-color:rgb(196, 190, 190) ;
+}
+
+.card-arrow-left,
+.card-arrow-right{
+    width: 30px;
+    height: 30px;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196, 190, 190);
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.card-arrow-left:hover,
+.card-arrow-right:hover{
+    background-color:rgb(248, 41, 93) ;
+    color: white;
+}
+.card-arrow-left{
+    left: 40px;
+}
+
+.card-arrow-right{
+    right: 30px;
+}
+
+.selling-products{
+    display: flex;
+    justify-content: center;
+    margin-top: 650px;
+    font-size:50px;
+    font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.order-btn{
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    color:black;
+    background-color: rgb(0, 255, 60) ;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.order-btn:hover{
+    background-color:aqua
+}
+
+.order-text{
+    font-size: 30px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

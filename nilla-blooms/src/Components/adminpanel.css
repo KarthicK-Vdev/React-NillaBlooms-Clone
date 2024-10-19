@@ -1,0 +1,83 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.admin-panel {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%; /* Increased width */
+    max-width: 1000px; /* Added maximum width */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.admin-panel h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.admin-panel table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.admin-panel th, .admin-panel td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold; /* Bold font */
+}
+
+.admin-panel th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.admin-panel td {
+    color: #555;
+}
+
+.admin-panel button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-panel button:hover {
+    background-color: #c82333;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+    .admin-panel {
+        width: 95%;
+        padding: 10px;
+    }
+    .admin-panel table {
+        font-size: 14px;
+    }
+    .admin-panel th, .admin-panel td {
+        padding: 8px;
+    }
+}
